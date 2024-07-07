@@ -3,11 +3,17 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve",
+    "serve": "vue-cli-service serve ",
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "core-js": "^3.8.3",
+    "cors": "^2.8.5",
+    "crypto-browserify": "^3.12.0",
+    "express": "^4.19.2",
+    "node-polyfill-webpack-plugin": "^4.0.0",
+    "square": "^37.1.0",
     "vue": "^2.6.14",
     "vuex": "^3.6.2"
   },
